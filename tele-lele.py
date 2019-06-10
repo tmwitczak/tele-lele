@@ -21,7 +21,7 @@ for i, line in enumerate(siema):
     elif j > 0 and j <= 4:
         answers[int(i / 6)].append(line[1:len(line) - 1 - 1])
     else:
-        correct_answer.append(int(line[1:len(line) - 1 - 1]))        
+        correct_answer.append(int(line[1:len(line) - 1]))        
 
 
 def shuffled_range(n):
