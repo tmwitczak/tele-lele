@@ -10,12 +10,17 @@ with codecs.open('dane', 'r', 'utf-8') as file:
 
 questions = []
 answers = []
+correct_answer = []
 
 for i, line in enumerate(siema):
-    if i % 2 == 0:
+    j = i % 6
+    if j == 0:
         questions.append(line[0:len(line) - 1 - 1])
+        answers.append([])
+    elif j > 0 and j <= 4:
+        answers[int(i / 6)].append(line[1:len(line) - 1 - 1])
     else:
-        answers.append(line[0:len(line) - 1 - 1])
+        correct_answer.append(int(line[1:len(line) - 1 - 1]))        
 
 
 def shuffled_range(n):
@@ -25,18 +30,18 @@ system('color')
 
 for i in shuffled_range(len(questions)):
     system('cls')
-    print('\033[37m' + '>', questions[i])
+    print('\033[37m' + '>', '[', questions[i], ']')
     print()
 
-    presented_answers = shuffled_range(len(answers))
-    presented_answers.remove(i)
-    presented_answers = sample(presented_answers, len(presented_answers))[0:3]
-    presented_answers.append(i)
+    presented_answers = shuffled_range(len(answers[i]))
+    presented_answers.remove(correct_answer[i])
+    presented_answers = sample(presented_answers, len(presented_answers))
+    presented_answers.append(correct_answer[i])
     presented_answers = sample(presented_answers, len(presented_answers))
 
     keys = ['h', 'j', 'k', 'l']
     for j in range(len(presented_answers)):
-        print('\033[37m' + keys[j], '\033[37m' + answers[presented_answers[j]])
+        print('\033[37m' + keys[j], '\033[37m' + answers[i][presented_answers[j]])
         print()
 
     answer = getch()
@@ -47,11 +52,11 @@ for i in shuffled_range(len(questions)):
     answer = answer_dict[answer]
 
     system('cls')
-    print('\033[37m' + '>', questions[i])
+    print('\033[37m' + '>', '[', questions[i], ']')
     print()
     for j in range(len(presented_answers)):
         color_line = None
-        if presented_answers[answer] == i:
+        if presented_answers[answer] == correct_answer[i]:
             color_line = '\033[35m'
         else:
             color_line = '\033[31m'
@@ -59,11 +64,12 @@ for i in shuffled_range(len(questions)):
         if answer != j:
             color_line = '\033[37m'
         
-            if presented_answers[answer] != i and presented_answers[j] == i:
+            if presented_answers[answer] != correct_answer[i] and \
+            presented_answers[j] == correct_answer[i]:
                 color_line = '\033[35m'
 
 
-        print('\033[37m' + keys[j], color_line + answers[presented_answers[j]])
+        print('\033[37m' + keys[j], color_line + answers[i][presented_answers[j]])
         print()
 
 

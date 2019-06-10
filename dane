@@ -1,92 +1,237 @@
-Zadania teleinformatyki:
- Transmisja informacji (wiadomości) na odległość
-Zjawisko fizyczne - nośnik informacji na odległość:
+Jakie zadania spełnia dziedzina nauki zwana teleinformatyką?
+ Oceny standadu transmisji danych
+ Transmisji informacji wiadomości na odległość
+ Budowy algorytmów modulacji
+ Modelowania i symulacji
+ 1
+Jakie zjawisko fizyczne jest nośnikiem informacji na odległość?
+ Fala morska
  Fala elektromagnetyczna
-Architektura sieci telekominikacyjnej:
+ Fala sejsmiczna
+ Fala mechooptyczna
+ 1
+Jaka jest architektura sieci telekomunikacyjnej?
+ Szeregowa
+ Równoległa
  Hierarchiczna
-Łańcuch telekomunikacyjny przedstawia rysunek:
- Środek) Kanał telekomunikacyjny -> zakłócenia
-Proces przetwarzania informacji:
- Zmiana informacji na zjawisko fizyczne oraz odpowiednia obróbka w celu poprawy jakości i ilości przesyłanych danych
-Przetwarzanie analogowo cyfrowe to operacja:
- Modulacja PCM
-Proces przetwarzania A/C obejmuje algorytmy:
- Próbkowania, kwantowania, kodowania
+ Mieszana
+ 2
+Czym zajmuje się proces przetwarzania informacji?
+ Zamianą pierwotnej informacji na falę akustyczną
+ Filtrowaniem przebiegu informatycznego
+ Zmianą informacji na zjawisko fizyczne oraz odpowiednią obróbką w celu poprawy jakości i ilości przesyłanych informacji
+ Wydobywaniem informacji po transmisji
+ 2
+Przetwarzanie analogowo cyfrowe jest operacją
+ Modulacji AM
+ Modulacji PAM
+ Modulacji PCM
+ Modulacji PFM
+ 2
+Proces przetwarzania A/C obejmuje algorytmy
+ Modulacji AM i M
+ Próbkowania i modulacji FM
+ Kwantowania, modulacji PFM i modulacji PM
+ Próbkowania, kwantowania i kodowania
+ 3
 Kryptografia obejmuje zadania:
- Utajania zapisu danych
-Kryptografia obejmuje zadania:
- Odczytywania utajonego zapisu danych
+ Utajnienia zapisu danych
+ Poprawy jakości modulacji
+ Odczytania utajnionego zapisu danych
+ Wyboru rodzaju komutacji
+ 0
+Kryptoanaliza obejmuje zadania:
+ Utajniania zapisu danych
+ Odczytania otajnionego zapisu danych
+ Demodulacji
+ Zestawienia pakietów danych
+ 1
 Klucz jest:
+ Metodą zapisu danych
  Algorytmem kryptograficznym
+ Metodą odczytu danych
+ Metodą transmisji danych
+ 1
 TMN jest:
- Systemem zarzadzania siecia
+ Systemem modulacji sygnałów
+ Systemem komutacji
+ Systemem zarządzania siecią
+ Systemem transmisji danych
+ 2
 Architektura informacyjna TMN opisuje:
- Sposób modelowania wymiany informacji zarzadzania
-Architektura informacyjna TMN opisuje:
- Podstawowe funkcje skladnikow funkcjonalnych FC
-Architektura informacyjna TMN opisuje:
- Sposób implementacji funkcji TMN w części fizycznej 
-Modulacja sygnalow to:
- Operacja odzwierciedlania przebiegu informacyjnego w zmianach określonego parametru przebiegu modulowanego
-Z czego wynikają rodzaje modulacji:
+ Sposób implementacji funkcji TMN w części funkcyjnej
+ Sposób komunikacji między blokami funkcjonalnymi
+ Sposób wytyczenia drogi nośnikowi wiadomości
+ Sposób modelowania wymiany informacji zarządzania
+ 3
+Architektura funkcjonalna TMN obejmuje:
+ Podstawowe funkcje komutacji
+ Podstawowe funkcje składników funkcjonalnych FC (Functional Component)
+ Podstawowe funkcje transmisji danych
+ Podstawowe algorytmy modulacji
+ 1
+Architektura fizyczna TMN opisuje:
+ Sposób implementacji funkcji TMN w części fizycznej
+ Sposób komunikacji między blokami funkcjonalnymi
+ Sposób wytyczenia drogi nośnikowi wiadomości
+ Sposób implementacji architektury funkcjonalnej
+ 0
+Modulacja sygnałów to:
+ Operacja filtracji
+ Operacja odzwierciedlenia przebiegu informacyjnego w zmianach określonego przebiegu modulowanego
+ Operacja integracji
+ Operacja symulacji
+ 1
+Z czego wynikają rodzaje modulacji?
  Z charakteru przebiegu pomocniczego
-Model matematyczny modulacji AM:
- S AM (t)=Am[sinf (t )]sin (2π ft+ϕ ), f =const ,ϕ =const
-Model matematyczny modulacji FM:
- SFM (t )=Am sin(2π f [sinf (t)]t+ϕ ), A=const ,ϕ =const
-Model matematyczny modulacji PM:
- SPM (t )=Am sin(2π ft+ϕ [sinf (t)]), A=const , f=const
-Model matematyczny modulacji PAM:
- SPAM (t)=Aimp[ sinf (t)], f imp=const ,ϕ imp=const ,Timp=const
-Model matematyczny modulacji PFM:
- SPMF (t)=f imp [sinf (t)], Aimp=const ,ϕ imp=const ,Timp=const
-Model matematyczny modulacji PDM(PTM):
- SPDM (t)=Timp [sinf ( t)](t), f imp=const ,ϕ imp=const , Aimp=const
-Model matemat modulacji amplitudy AM:
- odpB – w druga czesc A_0, po sumie M_i
-Przebieg modulacji amplitudy AM:
- Lewy dolny rog – rozna amplituda
-Przeds na rys przebieg jest modulacja:
- Odp. AM
-Wspolczynnik glebok modul aplit M:
- W mianowniku Amax+Amin
-Wart wspol gleb modul w przedziale:
- 0<=M<=1
-Niewlasciwa wart wspol glebo modulacji:
- Zniekształcenie obwiedni sygnalu zmodulowanego
-Probkowanie jest techno modulacji:
- Odp. PAM
-Czestot próbkowania fp przy często…:
- fp>=2fmax
-Algorytm kwantowania opracowany:
- Dyskretyzacji w czasie
-Model matemat musi mieć pomocniczy:
+ Z rodzaju sieci teleinformatycznej
+ Z rodzaju komutacji
+ Z zakresu częstotliwości przebiegu informacyjnego
+ 0
+Model matematyczny modulacji AM to:
+ SAM(t) = kAm sin(2πft + kφ)       , przy f  = const, φ = const
+ SAM(t) = Am[sinf(t)] sin(2πft + φ), przy f  = const, φ = const
+ SAM(t) = Am[sinf(t)] sin(2πft + φ), przy Am = const, φ = const
+ SAM(t) = Am sin(2πf[sinf(t)]t + φ), przy f  = const, φ = const
+ 1
+Model matematyczny modulacji FM to:
+ SFM(t) = kAm sin(2πft + kφ)       , przy f  = const, φ = const
+ SFM(t) = Am[sinf(t)] sin(2πft + φ), przy f  = const, φ = const
+ SFM(t) = Am[sinf(t)] sin(2πft + φ), przy Am = const, φ = const
+ SFM(t) = Am sin(2πf[sinf(t)]t + φ), przy Am = const, φ = const
+ 3
+Model matematyczny modulacji PM to:
+ SPM(t) = kAm sin(2πft + kφ)       , przy f  = const, φ = const
+ SPM(t) = Am[sinf(t)] sin(2πft + φ), przy f  = const, φ = const
+ SPM(t) = Am[sinf(t)] sin(2πft + φ), przy Am = const, φ = const
+ SPM(t) = Am sin(2πft + φ[sinf(t)]), przy Am = const, φ = const
+ 3
+Model matematyczny modulacji PAM to:
+ SPAM(t) ~ Aimp(t), przy fimp = const, φimp = const, Timp = const
+ SPAM(t) ~ Aimp[sinf(t)], przy fimp = const, φimp = const, Timp = const
+ SPAM(t) ~ Timp(t), przy fimp = const, Aimp = const, φimp = const, Timp = const
+ SPAM(t) ~ fimp[sinf(t)]t, przy Aimp = const, φimp = const, T = const
+ 1
+Model matematyczny modulacji PFM to:
+ SPFM(t) ~ fimp(t), przy Aimp = const, φimp = const, Timp = const
+ SPFM(t) ~ Aimp[sinf(t)], przy fimp = const, φimp = const, Timp = const
+ SPFM(t) ~ Timp(t), przy fimp = const, Aimp = const, φimp = const, Timp = const
+ SPFM(t) ~ f[sinf(t)], przy Aimp = const, φimp = const, T = const
+ 3
+Model matematyczny modulacji PDM(PTM) to:
+ SPDM(t) ~ Aimp(t), przy fimp = const, φimp = const, Timp = const
+ SPDM(t) ~ Aimp[sinf(t)], przy fimp = const, φimp = const, Timp = const
+ SPDM(t) ~ Timp[sinf(t)](t), przy fimp = const, Aimp = const, φimp = const, Timp = const
+ SPDM(t) ~ Timp[sinf(t)], przy Aimp = const, φimp = const, T = const
+ 3
+Modelem matematycznym modulacji amplitudy AM jest zależność:
+ Pamiętaj o A0 i Mi, bez K i innych współczynników
+ Pamiętaj o A0 i Mi, bez K i innych współczynników
+ Pamiętaj o A0 i Mi, bez K i innych współczynników
+ Pamiętaj o A0 i Mi, bez K i innych współczynników
+ 0
+Współczynnik głębokości modulacji amplitudy M wyraża się zależnością:
+ M = (Amax - Amin) / (Amin - Amax) * 100%
+ M = (Amin - Amax) / (Amin - Amax) * 100%
+ M = (Amax - Amin) / (Amax - Amin) * 100%
+ M = (Amax - Amin) / (Amax + Amin) * 100%
+ 3
+Wartość współczynnika głębokości modulacji powinna być w przedziale
+ 0 >  M <= 1
+ 0 >  M >  1
+ 0 <= M <= 1
+ 0 <  M <  1
+ 2
+Niewłaściwa wartość współczynnika głębokości modulacji powoduje
+ Zakłócenia przebiegu modulującego
+ Zniekształcenie obiedni sygnału zmodulowanego (przemodelowanie)
+ Brak sygnału informacyjnego
+ Zakłócenia w kanale transmisyjnym
+ 1
+Próbkowanie jest technologią modulacji
+ AM
+ FM
+ PAM
+ PFM
+ 2
+Częstotliwość próbkowania fp przy częstotliwości przebiegu informacyjnego fmax
+powinna wynosić
+ fp =   fmax
+ fp >=  fmax
+ fp >= 2fmax
+ fp <= 2fmax
+ 2
+Algorytm kwantowania opracowany jest na bazie modelu
+ Dyskretyzacji w czasie (pionowej)
+ Dyskretyzacji w wartościach funkcji (poziomej)
+ Procesu dynamicznego
+ Procesu stochastycznego
+ 0
+Jaki model matematyczny musi mieć pomocniczy przebieg modulowany?
+ Stochastyczny
  Deterministyczny
-Przebieg na rys jest zmodul przebi:
- Liniowym
-Mozliw zmiany czest przeb modul:
- Zmniejszenie zaklocen w kanal trans
-Komutacja dotyczy procesu:
- Dynamicznego zestawiania polaczen sieci
-Co to proces komutacji:
- Zestawianie, rozlaczanie drogi przesyłowej…
-Komutacja pakietow to przesylanie…:
- Grupy elementow o ograniczonej długo
-Komutacja wiadomości posiada wlasc:
- Przechowywanie wiadomości w węźle sieci…
-Zalety komutacji ATM:
+ Mieszany
+ Ciągły
+ 1
+Możliwość zmiany częstotliwości przebiegu modulowanego pozwala na
+ Zmiejszenie zakłóceń w kanale transmisyjnym
+ Zwielokrotnienie częstotliwościowe kanału
+ Kodowanie kanału
+ Szyfrowanie informacji
+ 0
+Komutacja dotyczy procesu
+ Transmisji danych
+ Dynamicznego zestawienia połączeń sieci
+ Ustalenia toru transmisyjnego
+ Zarządzenia siecią
+ 1
+Co to znaczy proces komutacji (telekomutacji)?
+ Zagadnienie ruchu w sieciach teleinformatycznych
+ Opis drogi informacji
+ Zestawianie, rozłączanie drogi przesyłowej, projektowanie, wytwarzanie,
+ instalacja, eksploatacja urządzeń teleinformatycznych
+ Obsługa klientów
+ 2
+Komutacja pakietów polega na przesyłaniu wiadomości w formie
+ Grupy elementów o ograniczonej długości z adresami teminali
+ Zestawiania określonych węzłów sieci
+ Podziału na grupy komutacyjne
+ Pamiętania adresu terminali
+ 0
+Komutacja wiadomości posiada właściwości
+ Zestawienia połączenia pomiędzy teminalami
+ Wyboru drogi przesyłania wiadomości najkrótszą drogą
+ Przechowywania wiadomości w węźle sieci w oczekiwaniu na wolny kanał
+ transmisyjny
+ 2
+Zalety komutacji ATM
+ Uproszczenie zarządzania i kontroli sieci
+ Łatwość podziału na pakiety
  Lepsze wykorzystanie sprzętu
-Odwrotna transformata postac:
- s(t)=S(w)e^{iet} dw
-Przeksztalcenie furiera… postaci:
- Odp.B|  F(w)=f(t)e^{-jwt} dt
-Impuls diraca:
- δ (t)=0 dla t≠0, inf dla t=0
-Twierdz o odtwarz dot okreś:
- Czestotliwosci próbkowania
-Wartosc amplit analogowego 2^n:
- Odp. N
-Polityka bezpiecz przesył danych:
- Zapewnienia bezpieczeństwa w sieci
-Który wykres-sygnaly sinus jedna charak:
- odpB| pionowe rowne strzłki blsko siebie
+ Przechowywanie wiadomości w węźle
+ 2
+Impuls Diraca
+ δ(t) = {0 dla t =0, ∞ dla t!=0}
+ δ(t) = {1 dla t!=0, ∞ dla  t=0}
+ δ(t) = {0 dla t!=0, ∞ dla  t=0}
+ δ(t) = {0 dla t!=0, 1 dla  t=0}
+ 2
+Twierdzenie o odtwarzaniu dotyczy określania
+ Poziomu kwantyzacji
+ Zakresu częstotliwości przebiegu pomocniczego
+ Częstotliwości próbkowania
+ Charakteru przebiegu pomocniczego
+ 2
+Wartość amplitudy przebiegu (sygnału) analogowego 2^n jest zapisana w postaci
+binarnej o długości słowa
+ 2n
+ n
+ n^2
+ 4n
+ 1
+Polityka bezpieczeństwa przesyłania danych obejmuje
+ Zapewnienie transmisji danych
+ Zapewnienie bezpieczeństwa w sieci
+ Zapewnienie podziału na pakiety
+ Zapewnienie optymalnego rozwiązania architektury sieci
+ 1
