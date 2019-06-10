@@ -76,6 +76,11 @@ for x, i in enumerate(shuffled_range(len(questions))):
         print('\033[37m' + keys[j], color_line + answers[i][presented_answers[j]])
         print()
 
+    print()
+    if presented_answers[answer] == correct_answer[i]:
+        print('\033[32m' + 'Dobrze!')
+    else:
+        print('\033[31m' + 'Źle!')
 
     getch()
 
