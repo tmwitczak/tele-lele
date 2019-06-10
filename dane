@@ -199,8 +199,8 @@ Komutacja pakietów polega na przesyłaniu wiadomości w formie
 Komutacja wiadomości posiada właściwości
  Zestawienia połączenia pomiędzy teminalami
  Wyboru drogi przesyłania wiadomości najkrótszą drogą
- Przechowywania wiadomości w węźle sieci w oczekiwaniu na wolny kanał
- transmisyjny
+ Przechowywania wiadomości w węźle sieci w oczekiwaniu na wolny kanał transmisyjny
+ zestawiania wirtualnego kanału transmisyjnego
  2
 Zalety komutacji ATM
  Uproszczenie zarządzania i kontroli sieci
