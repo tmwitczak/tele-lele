@@ -154,8 +154,7 @@ Próbkowanie jest technologią modulacji
  PAM
  PFM
  2
-Częstotliwość próbkowania fp przy częstotliwości przebiegu informacyjnego fmax
-powinna wynosić
+Częstotliwość próbkowania fp przy częstotliwości przebiegu informacyjnego fmax powinna wynosić
  fp =   fmax
  fp >=  fmax
  fp >= 2fmax
@@ -188,8 +187,7 @@ Komutacja dotyczy procesu
 Co to znaczy proces komutacji (telekomutacji)?
  Zagadnienie ruchu w sieciach teleinformatycznych
  Opis drogi informacji
- Zestawianie, rozłączanie drogi przesyłowej, projektowanie, wytwarzanie,
- instalacja, eksploatacja urządzeń teleinformatycznych
+ Zestawianie, rozłączanie drogi przesyłowej, projektowanie, wytwarzanie, instalacja, eksploatacja urządzeń teleinformatycznych
  Obsługa klientów
  2
 Komutacja pakietów polega na przesyłaniu wiadomości w formie
@@ -222,8 +220,7 @@ Twierdzenie o odtwarzaniu dotyczy określania
  Częstotliwości próbkowania
  Charakteru przebiegu pomocniczego
  2
-Wartość amplitudy przebiegu (sygnału) analogowego 2^n jest zapisana w postaci
-binarnej o długości słowa
+Wartość amplitudy przebiegu (sygnału) analogowego 2^n jest zapisana w postaci binarnej o długości słowa
  2n
  n
  n^2
