@@ -1,0 +1,92 @@
+Zadania teleinformatyki:
+ Transmisja informacji (wiadomości) na odległość
+Zjawisko fizyczne - nośnik informacji na odległość:
+ Fala elektromagnetyczna
+Architektura sieci telekominikacyjnej:
+ Hierarchiczna
+Łańcuch telekomunikacyjny przedstawia rysunek:
+ Środek) Kanał telekomunikacyjny -> zakłócenia
+Proces przetwarzania informacji:
+ Zmiana informacji na zjawisko fizyczne oraz odpowiednia obróbka w celu poprawy jakości i ilości przesyłanych danych
+Przetwarzanie analogowo cyfrowe to operacja:
+ Modulacja PCM
+Proces przetwarzania A/C obejmuje algorytmy:
+ Próbkowania, kwantowania, kodowania
+Kryptografia obejmuje zadania:
+ Utajania zapisu danych
+Kryptografia obejmuje zadania:
+ Odczytywania utajonego zapisu danych
+Klucz jest:
+ Algorytmem kryptograficznym
+TMN jest:
+ Systemem zarzadzania siecia
+Architektura informacyjna TMN opisuje:
+ Sposób modelowania wymiany informacji zarzadzania
+Architektura informacyjna TMN opisuje:
+ Podstawowe funkcje skladnikow funkcjonalnych FC
+Architektura informacyjna TMN opisuje:
+ Sposób implementacji funkcji TMN w części fizycznej 
+Modulacja sygnalow to:
+ Operacja odzwierciedlania przebiegu informacyjnego w zmianach określonego parametru przebiegu modulowanego
+Z czego wynikają rodzaje modulacji:
+ Z charakteru przebiegu pomocniczego
+Model matematyczny modulacji AM:
+ S AM (t)=Am[sinf (t )]sin (2π ft+ϕ ), f =const ,ϕ =const
+Model matematyczny modulacji FM:
+ SFM (t )=Am sin(2π f [sinf (t)]t+ϕ ), A=const ,ϕ =const
+Model matematyczny modulacji PM:
+ SPM (t )=Am sin(2π ft+ϕ [sinf (t)]), A=const , f=const
+Model matematyczny modulacji PAM:
+ SPAM (t)=Aimp[ sinf (t)], f imp=const ,ϕ imp=const ,Timp=const
+Model matematyczny modulacji PFM:
+ SPMF (t)=f imp [sinf (t)], Aimp=const ,ϕ imp=const ,Timp=const
+Model matematyczny modulacji PDM(PTM):
+ SPDM (t)=Timp [sinf ( t)](t), f imp=const ,ϕ imp=const , Aimp=const
+Model matemat modulacji amplitudy AM:
+ odpB – w druga czesc A_0, po sumie M_i
+Przebieg modulacji amplitudy AM:
+ Lewy dolny rog – rozna amplituda
+Przeds na rys przebieg jest modulacja:
+ Odp. AM
+Wspolczynnik glebok modul aplit M:
+ W mianowniku Amax+Amin
+Wart wspol gleb modul w przedziale:
+ 0<=M<=1
+Niewlasciwa wart wspol glebo modulacji:
+ Zniekształcenie obwiedni sygnalu zmodulowanego
+Probkowanie jest techno modulacji:
+ Odp. PAM
+Czestot próbkowania fp przy często…:
+ fp>=2fmax
+Algorytm kwantowania opracowany:
+ Dyskretyzacji w czasie
+Model matemat musi mieć pomocniczy:
+ Deterministyczny
+Przebieg na rys jest zmodul przebi:
+ Liniowym
+Mozliw zmiany czest przeb modul:
+ Zmniejszenie zaklocen w kanal trans
+Komutacja dotyczy procesu:
+ Dynamicznego zestawiania polaczen sieci
+Co to proces komutacji:
+ Zestawianie, rozlaczanie drogi przesyłowej…
+Komutacja pakietow to przesylanie…:
+ Grupy elementow o ograniczonej długo
+Komutacja wiadomości posiada wlasc:
+ Przechowywanie wiadomości w węźle sieci…
+Zalety komutacji ATM:
+ Lepsze wykorzystanie sprzętu
+Odwrotna transformata postac:
+ s(t)=S(w)e^{iet} dw
+Przeksztalcenie furiera… postaci:
+ Odp.B|  F(w)=f(t)e^{-jwt} dt
+Impuls diraca:
+ δ (t)=0 dla t≠0, inf dla t=0
+Twierdz o odtwarz dot okreś:
+ Czestotliwosci próbkowania
+Wartosc amplit analogowego 2^n:
+ Odp. N
+Polityka bezpiecz przesył danych:
+ Zapewnienia bezpieczeństwa w sieci
+Który wykres-sygnaly sinus jedna charak:
+ odpB| pionowe rowne strzłki blsko siebie
