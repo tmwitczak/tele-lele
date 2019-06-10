@@ -11,6 +11,7 @@ with codecs.open('dane', 'r', 'utf-8') as file:
 questions = []
 answers = []
 correct_answer = []
+correct_answer_count = 0
 
 for i, line in enumerate(siema):
     j = i % 6
@@ -28,9 +29,9 @@ def shuffled_range(n):
 
 system('color')
 
-for i in shuffled_range(len(questions)):
+for x, i in enumerate(shuffled_range(len(questions))):
     system('cls')
-    print('\033[37m' + '>', '[', questions[i], ']')
+    print('\033[37m' + str(x + 1), '/', len(questions), '|', '>', '[', questions[i], ']')
     print()
 
     presented_answers = shuffled_range(len(answers[i]))
@@ -51,8 +52,11 @@ for i in shuffled_range(len(questions)):
                    b'l' : 3 } 
     answer = answer_dict[answer]
 
+    if presented_answers[answer] == correct_answer[i]:
+        correct_answer_count = correct_answer_count + 1
+
     system('cls')
-    print('\033[37m' + '>', '[', questions[i], ']')
+    print('\033[37m' + str(x + 1), '/', len(questions), '|', '>', '[', questions[i], ']')
     print()
     for j in range(len(presented_answers)):
         color_line = None
@@ -74,4 +78,9 @@ for i in shuffled_range(len(questions)):
 
 
     getch()
+
+system('cls')
+print('\033[37m' + 'Poprawność:', correct_answer_count / len(questions) * 100, '%')
+getch()
+
 
