@@ -34,49 +34,49 @@ Proces przetwarzania A/C obejmuje algorytmy
  Kwantowania, modulacji PFM i modulacji PM
  Próbkowania, kwantowania i kodowania
  3
-Kryptografia obejmuje zadania:
+Kryptografia obejmuje zadania
  Utajnienia zapisu danych
  Poprawy jakości modulacji
  Odczytania utajnionego zapisu danych
  Wyboru rodzaju komutacji
  0
-Kryptoanaliza obejmuje zadania:
+Kryptoanaliza obejmuje zadania
  Utajniania zapisu danych
  Odczytania otajnionego zapisu danych
  Demodulacji
  Zestawienia pakietów danych
  1
-Klucz jest:
+Klucz jest
  Metodą zapisu danych
  Algorytmem kryptograficznym
  Metodą odczytu danych
  Metodą transmisji danych
  1
-TMN jest:
+TMN jest
  Systemem modulacji sygnałów
  Systemem komutacji
  Systemem zarządzania siecią
  Systemem transmisji danych
  2
-Architektura informacyjna TMN opisuje:
+Architektura informacyjna TMN opisuje
  Sposób implementacji funkcji TMN w części funkcyjnej
  Sposób komunikacji między blokami funkcjonalnymi
  Sposób wytyczenia drogi nośnikowi wiadomości
  Sposób modelowania wymiany informacji zarządzania
  3
-Architektura funkcjonalna TMN obejmuje:
+Architektura funkcjonalna TMN obejmuje
  Podstawowe funkcje komutacji
  Podstawowe funkcje składników funkcjonalnych FC (Functional Component)
  Podstawowe funkcje transmisji danych
  Podstawowe algorytmy modulacji
  1
-Architektura fizyczna TMN opisuje:
+Architektura fizyczna TMN opisuje
  Sposób implementacji funkcji TMN w części fizycznej
  Sposób komunikacji między blokami funkcjonalnymi
  Sposób wytyczenia drogi nośnikowi wiadomości
  Sposób implementacji architektury funkcjonalnej
  0
-Modulacja sygnałów to:
+Modulacja sygnałów to
  Operacja filtracji
  Operacja odzwierciedlenia przebiegu informacyjnego w zmianach określonego przebiegu modulowanego
  Operacja integracji
@@ -88,49 +88,49 @@ Z czego wynikają rodzaje modulacji?
  Z rodzaju komutacji
  Z zakresu częstotliwości przebiegu informacyjnego
  0
-Model matematyczny modulacji AM to:
+Model matematyczny modulacji AM to
  SAM(t) = kAm sin(2πft + kφ)       , przy f  = const, φ = const
  SAM(t) = Am[sinf(t)] sin(2πft + φ), przy f  = const, φ = const
  SAM(t) = Am[sinf(t)] sin(2πft + φ), przy Am = const, φ = const
  SAM(t) = Am sin(2πf[sinf(t)]t + φ), przy f  = const, φ = const
  1
-Model matematyczny modulacji FM to:
+Model matematyczny modulacji FM to
  SFM(t) = kAm sin(2πft + kφ)       , przy f  = const, φ = const
  SFM(t) = Am[sinf(t)] sin(2πft + φ), przy f  = const, φ = const
  SFM(t) = Am[sinf(t)] sin(2πft + φ), przy Am = const, φ = const
  SFM(t) = Am sin(2πf[sinf(t)]t + φ), przy Am = const, φ = const
  3
-Model matematyczny modulacji PM to:
+Model matematyczny modulacji PM to
  SPM(t) = kAm sin(2πft + kφ)       , przy f  = const, φ = const
  SPM(t) = Am[sinf(t)] sin(2πft + φ), przy f  = const, φ = const
  SPM(t) = Am[sinf(t)] sin(2πft + φ), przy Am = const, φ = const
  SPM(t) = Am sin(2πft + φ[sinf(t)]), przy Am = const, φ = const
  3
-Model matematyczny modulacji PAM to:
+Model matematyczny modulacji PAM to
  SPAM(t) ~ Aimp(t), przy fimp = const, φimp = const, Timp = const
  SPAM(t) ~ Aimp[sinf(t)], przy fimp = const, φimp = const, Timp = const
  SPAM(t) ~ Timp(t), przy fimp = const, Aimp = const, φimp = const, Timp = const
  SPAM(t) ~ fimp[sinf(t)]t, przy Aimp = const, φimp = const, T = const
  1
-Model matematyczny modulacji PFM to:
+Model matematyczny modulacji PFM to
  SPFM(t) ~ fimp(t), przy Aimp = const, φimp = const, Timp = const
  SPFM(t) ~ Aimp[sinf(t)], przy fimp = const, φimp = const, Timp = const
  SPFM(t) ~ Timp(t), przy fimp = const, Aimp = const, φimp = const, Timp = const
  SPFM(t) ~ f[sinf(t)], przy Aimp = const, φimp = const, T = const
  3
-Model matematyczny modulacji PDM(PTM) to:
+Model matematyczny modulacji PDM(PTM) to
  SPDM(t) ~ Aimp(t), przy fimp = const, φimp = const, Timp = const
  SPDM(t) ~ Aimp[sinf(t)], przy fimp = const, φimp = const, Timp = const
  SPDM(t) ~ Timp[sinf(t)](t), przy fimp = const, Aimp = const, φimp = const, Timp = const
  SPDM(t) ~ Timp[sinf(t)], przy Aimp = const, φimp = const, T = const
  3
-Modelem matematycznym modulacji amplitudy AM jest zależność:
+Modelem matematycznym modulacji amplitudy AM jest zależność
  Pamiętaj o A0 i Mi, bez K i innych współczynników
  Pamiętaj o A0 i Mi, bez K i innych współczynników
  Pamiętaj o A0 i Mi, bez K i innych współczynników
  Pamiętaj o A0 i Mi, bez K i innych współczynników
  0
-Współczynnik głębokości modulacji amplitudy M wyraża się zależnością:
+Współczynnik głębokości modulacji amplitudy M wyraża się zależnością
  M = (Amax - Amin) / (Amin - Amax) * 100%
  M = (Amin - Amax) / (Amin - Amax) * 100%
  M = (Amax - Amin) / (Amax - Amin) * 100%
