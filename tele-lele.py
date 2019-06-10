@@ -61,7 +61,7 @@ for x, i in enumerate(shuffled_range(len(questions))):
     for j in range(len(presented_answers)):
         color_line = None
         if presented_answers[answer] == correct_answer[i]:
-            color_line = '\033[35m'
+            color_line = '\033[32m'
         else:
             color_line = '\033[31m'
 
@@ -70,7 +70,7 @@ for x, i in enumerate(shuffled_range(len(questions))):
         
             if presented_answers[answer] != correct_answer[i] and \
             presented_answers[j] == correct_answer[i]:
-                color_line = '\033[35m'
+                color_line = '\033[32m'
 
 
         print('\033[37m' + keys[j], color_line + answers[i][presented_answers[j]])
